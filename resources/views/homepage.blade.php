@@ -11,3 +11,10 @@
     <h1> We opt to rescue animals and give them a shelter they deserve</h1>
 </body>
 </html>
+{{-- @extends('layout')
+@section('content')
+<h1>jj</h1>
+@endsection
+@section('title')
+home
+@endsection --}}

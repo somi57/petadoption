@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Registration extends Model
+class Signup extends Model
 {
     use HasFactory;
-    protected $fillable=['name','email','address','number'];  
+    protected $fillable=['name','address','age','email','number','password','repass'];
 }
